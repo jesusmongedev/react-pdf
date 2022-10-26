@@ -1,0 +1,17 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.pdf-document {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pdf-page {
+  /* width: 100px;
+  height: 100px; */
+  margin: 0 10px;
+  box-shadow: 10px green;
+  border: 1px solid red;
+}
