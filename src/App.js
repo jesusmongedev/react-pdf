@@ -21,14 +21,14 @@ export default function App() {
         className="pdf-document"
       >
         <Page pageNumber={pageNumber} />
-        {Array.from(new Array(numPages), (el, index) => (
+        {/* {Array.from(new Array(numPages), (el, index) => (
           <Page
             key={`page_${index + 1}`}
             className="pdf-page"
             pageNumber={index + 1}
             width="200"
           />
-        ))}
+        ))} */}
       </Document>
       <p></p>
     </div>
